@@ -4,10 +4,10 @@ export async function doesUsernameExist(username) {
   const result = await firebase
     .firestore()
     .collection('users')
-    .where('username', '==', username.toLowerCase())
+    .where('username', '==', username)
     .get();
 
-  return result.docs.length > 0;
+  return result.docs.map((user) => user.data().length > 0);
 }
 
 export async function getUserByUsername(username) {

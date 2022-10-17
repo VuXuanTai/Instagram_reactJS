@@ -6,7 +6,7 @@ export function seedDatabase(firebase) {
         userId: 'xJquRfBog9O2FNiapKIFAkK02d12',
         username: 'Vu',
         fullName: 'Vu Tai',
-        emailAddress: 'taivu.xd.k64@gmail.com',
+        emailAddress: 'taivx.1312@gmail.com',
         following: ['2'],
         followers: ['2', '3', '4'],
         dateCreated: Date.now()
