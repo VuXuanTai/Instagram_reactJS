@@ -7,13 +7,12 @@ import { useState } from 'react';
 
 export default function Sidebar() {
     const {
-        user: {fullName, username, userId}
+        user: {fullName, username, userId, following}
     } = useUser();
-    const [test, setTest] = React.useState();
     return (
         <div className='p-4'>
             <User username={username} fullName={fullName}/>
-            <Suggestions userId={userId}/>
+            <Suggestions userId={userId} following={following}/>
         </div>
 
     );

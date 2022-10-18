@@ -30,4 +30,3 @@ User.propTypes = {
   username: PropTypes.string,
   fullName: PropTypes.string
 };
-User.whyDidYouRender = true;
