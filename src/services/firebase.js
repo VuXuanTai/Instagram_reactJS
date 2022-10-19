@@ -53,6 +53,8 @@ export async function getSuggestedProfiles(userId, following) {
   return profiles;
 }
 
+
+
 export async function updateLoggedInUserFollowing(
   loggedInUserDocId, // currently logged in user document id (karl's profile)
   profileId, // the user that karl requests to follow
