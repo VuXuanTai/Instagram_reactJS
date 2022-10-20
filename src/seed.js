@@ -2,42 +2,42 @@
 // NOTE: replace 'xJquRfBog9O2FNiapKIFAkK02d12' with your Firebase auth user id (can be taken from Firebase)
 export function seedDatabase(firebase) {
     const users = [
-      {
-        userId: 'xJquRfBog9O2FNiapKIFAkK02d12',
-        username: 'Vu',
-        fullName: 'Tài Vũ',
-        emailAddress: 'taivx.1312@gmail.com',
-        following: ['2'],
-        followers: ['2', '3', '4'],
-        dateCreated: Date.now()
-      },
-      {
+      // {
+      //   userId: 'xJquRfBog9O2FNiapKIFAkK02d12',
+      //   username: 'Vu',
+      //   fullName: 'Tài Vũ',
+      //   emailAddress: 'taivx.1312@gmail.com',
+      //   following: ['2'],
+      //   followers: ['2', '3', '4'],
+      //   dateCreated: Date.now()
+      // },
+       {
         userId: '2',
-        username: 'raphael',
-        fullName: 'Raffaello Sanzio da Urbino',
-        emailAddress: 'raphael@sanzio.com',
-        following: [],
-        followers: ['xJquRfBog9O2FNiapKIFAkK02d12'],
-        dateCreated: Date.now()
-      },
-      {
-        userId: '3',
-        username: 'dali',
-        fullName: 'Salvador Dalí',
-        emailAddress: 'salvador@dali.com',
-        following: [],
-        followers: ['xJquRfBog9O2FNiapKIFAkK02d12'],
-        dateCreated: Date.now()
-      },
-      {
-        userId: '4',
-        username: 'orwell',
-        fullName: 'George Orwell',
-        emailAddress: 'george@orwell.com',
-        following: [],
+        username: 'th_honghong',
+        fullName: 'Trần Hông Hồng',
+        emailAddress: 'hong@gmail.com',
+        following: [xJquRfBog9O2FNiapKIFAkK02d12],
         followers: ['xJquRfBog9O2FNiapKIFAkK02d12'],
         dateCreated: Date.now()
       }
+      // {
+      //   userId: '3',
+      //   username: 'dali',
+      //   fullName: 'Salvador Dalí',
+      //   emailAddress: 'salvador@dali.com',
+      //   following: [],
+      //   followers: ['xJquRfBog9O2FNiapKIFAkK02d12'],
+      //   dateCreated: Date.now()
+      // },
+      // {
+      //   userId: '4',
+      //   username: 'orwell',
+      //   fullName: 'George Orwell',
+      //   emailAddress: 'george@orwell.com',
+      //   following: [],
+      //   followers: ['xJquRfBog9O2FNiapKIFAkK02d12'],
+      //   dateCreated: Date.now()
+      // }
     ];
   
     // eslint-disable-next-line prefer-const

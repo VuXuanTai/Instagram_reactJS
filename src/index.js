@@ -12,18 +12,3 @@ root.render(
   </FirebaseContext.Provider>,
   document.getElementById('root'));
 
-//client side rendered app: react (cra)
-  // -> databse which is Firebase
-  // -> react-loading-skeleton
-  // tailwind
-
-// architecture
-  // folder structure
-    // -> src
-      // -> components
-      // -> constants
-      // ->context 
-      // ->helpers, 
-      // -> lib(firebase is going to live in here)
-      // -> services(firebae function in here)
-      // -> styles (tailwind's folder (app/tailwind))
