@@ -3,7 +3,7 @@ import 'firebase/compat/firestore';
 import 'firebase/compat/auth';
 //import {getStorage} from 'firebase/storage';
 
-//import {seedDatabase} from '../seed';
+import {seedDatabase} from '../seed';
 const config ={
     apiKey: "AIzaSyAg5uEyoohpye5awc73nnECERGVFzMbzSI",
     authDomain: "instagram-383ac.firebaseapp.com",
